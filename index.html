@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+  <title>Músicas</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="imagemicone.jpg" type="image/jpg">
+  <!--api do google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Meu CSS-->
+<style>
+ #Título
+ {
+   
+ font-family: "Permanent Marker", cursive;
+  font-weight: bold;
+  font-style: normal;
+  text-align:center;
+  font-size: 350%;
+  color: rgb(255, 0, 0);
+
+ }   
+
+ 
+   img
+    {
+
+    width: 100px;
+    height: 100px;
+    }
+    table
+    {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+    }
+    td
+    {
+      text-align: center;
+    }
+    body {
+    background-color: #000000; 
+    font-family: Arial, sans-serif; 
+}
+
+#Título {
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 350%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px; 
+}
+
+table {
+   display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-collapse: collapse; 
+    
+
+        
+    
+}
+
+tr {
+    background-color: white; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+td {
+    text-align: center;
+    padding: 10px; 
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px; 
+}
+
+a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+}
+
+a:hover {
+    color: rgb(255, 0, 0); 
+}
+   </style>
+</head>
+<body>
+ <!--Título -->
+ <p id="Título">Seu Player de Músicas.</p>
+ <table>
+  <tbody>
+    <tr>
+     <td>
+        <img src="roxettte.jpg" alt="">
+     </td>
+     <td>
+        <a href="https://pt.wikipedia.org/wiki/Roxette" target="_blank">Roxette - Spending My Time</a>
+     </td>
+     <td>
+        <audio controls>
+        <source src="Roxette_Spending_My_Time.mp3" type="audio/mp3">
+        </audio>
+     </td>   
+    </tr>
+    <tr>
+      <td>
+         <img src="TheNeigh.jpg" alt="">
+      </td>
+      <td>
+         <a href="https://en.wikipedia.org/wiki/The_Neighbourhood" target="_blank">The Neighbourhood - Sweater Weather</a>
+      </td>
+      <td>
+         <audio controls>
+         <source src="The_Neighbourhood_Sweater_Weather.mp3" type="audio/mp3">
+         </audio>
+      </td>   
+     </tr>
+     <tr>
+      <td>
+         <img src="DavidBowie.jpg" alt="">
+      </td>
+      <td>
+         <a href="https://en.wikipedia.org/wiki/David_Bowie" target="_blank">David Bowie - Heroes </a>
+      </td>
+      <td>
+         <audio controls>
+         <source src="David_Bowie_Heroes.mp3" type="audio/mp3">
+         </audio>
+      </td>   
+     </tr>
+  </tbody>  
+ </table>
+</body>
+</html>
